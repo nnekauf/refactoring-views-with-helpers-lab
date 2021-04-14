@@ -1,0 +1,6 @@
+<% if @artist %>
+    <%= @artist.name %>
+<% else %>
+   <%= link_to Add Artist, new_artist_path %>
+
+<% end %>
